@@ -1,13 +1,15 @@
 ## 项目介绍
 MysqlHoneypot是一个Mysql蜜罐项目，主要借助load data local infile来获取攻击者主机(Windows平台)的用户名，并根据用户名进一步获取微信ID，之后根据微信ID获取用户的手机号码，登录地址等信息，主要读取的文件如下：
-- 通过C:/Windows/PFRO.log获取windows用户名 
+
+**A、通过C:/Windows/PFRO.log获取windows用户名** 
 
 ![username](img/user.png)
-- 通过C:/Users/用户名/Documents/WeChat Files/All Users/config/config.data获取wxid 
+
+**B、通过C:/Users/用户名/Documents/WeChat Files/All Users/config/config.data获取wxid**
 
 ![wechat](img/wechat.png)
 
-- 通过C:/Users/用户名/Documents/WeChat Files/wx_id/config/AccInfo.dat获取地址、微信号、手机号
+**C、通过C:/Users/用户名/Documents/WeChat Files/wx_id/config/AccInfo.dat获取地址、微信号、手机号**
 
 ![acc2](img/acc2.png)
 
@@ -43,6 +45,9 @@ Step 3:攻击者再次尝试时获取AccInfo.dat信息
 
 ## 参考连接
 https://github.com/qigpig/MysqlHoneypot
+
 https://github.com/heikanet/MysqlHoneypot
+
 https://mp.weixin.qq.com/s/rQ9BpavBeMnS6xUOidZ5OA
+
 https://mp.weixin.qq.com/s/m4I_YDn98K_A2yGAhv67Gg
