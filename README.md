@@ -5,7 +5,8 @@ MysqlHoneypot是一个Mysql蜜罐项目，主要借助load data local infile来�
 ![username](img/user.png)
 - 通过C:/Users/用户名/Documents/WeChat Files/All Users/config/config.data获取wxid 
 
-![wechat ](img/wechat .png)
+![wechat](img/wechat.png)
+
 - 通过C:/Users/用户名/Documents/WeChat Files/wx_id/config/AccInfo.dat获取地址、微信号、手机号
 
 ![acc2](img/acc2.png)
