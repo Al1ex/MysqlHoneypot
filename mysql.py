@@ -1,9 +1,4 @@
 # -*- coding:utf-8 -*- -
-#refer:
-# [*]https://github.com/qigpig/MysqlHoneypot
-# [*]https://mp.weixin.qq.com/s/rQ9BpavBeMnS6xUOidZ5OA
-# [*]https://mp.weixin.qq.com/s/m4I_YDn98K_A2yGAhv67Gg
-# [*] https://github.com/ev0A/Mysqlist
 import socket
 import os
 import re
